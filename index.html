@@ -1,0 +1,58 @@
+<html>
+<head>
+	<script type="text/javascript" src="http://code.jquery.com/jquery-1.11.0.js"/>
+	<script type="text/javascript" src="/bmi/bmi.js" />
+</head>
+<body>
+	<script>
+		$(document).ready(function (){
+			$('form').submit(function(event){
+				// var berat = $('.berat').val();
+				// var tinggi = $('.tinggi').val();
+				// var sex = $('.sex:checked').val();
+				// var umur = $('.umur').val();
+
+				// console.log("aa");
+
+				// $('#amr').text(hitungamr(sex,berat,tinggi,umur));
+				// $('#bmi').text(hitungbmi(berat,tinggi));
+				alert("MAMPUS");
+
+				event.preventDefault();
+
+				return false;
+			});
+		});
+	</script>
+
+	<div>
+		<form id="formbmi" method="post" action="#">
+			<div>
+				<label for="tinggi">Tinggi badan (dalam cm)</label>
+				<input type="text" class="tinggi" placeholder="masukkan angka" name="tinggi" id="tinggi">
+			</div>
+			<div>
+				<label for="berat">Berat badan (dalam kg)</label>
+				<input type="text" class="berat" placeholder="masukkan angka" name="berat" id="berat">
+			</div>
+			<div>
+				<label for="umur">Umur</label>
+				<input type="text" class="umur" placeholder="masukkan angka" name="umur" id="umur">
+			</div>
+			<div>
+				Jenis Kelamin
+				<input type="radio" class="sex" name="sex" value="m">Male&nbsp;&nbsp; 
+				<input type="radio" class="sex" name="sex" value="f">Female
+			</div>
+			<div>
+				<input type="submit" value="Submit">
+			</div>
+		</form>
+	</div>
+	<div>
+		<p id="amr"></p>
+		<p id="bmi"></p>
+	</div>
+
+</body>
+</html>
