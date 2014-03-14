@@ -1,22 +1,18 @@
 <html>
 <head>
-	<script type="text/javascript" src="http://code.jquery.com/jquery-1.11.0.js"/>
-	<script type="text/javascript" src="/bmi/bmi.js" />
-</head>
-<body>
+	<script type="text/javascript" src="http://code.jquery.com/jquery-1.11.0.js"></script>
+	<script type="text/javascript" src="/bmi/bmi.js"></script>
 	<script>
 		$(document).ready(function (){
-			$('form').submit(function(event){
-				// var berat = $('.berat').val();
-				// var tinggi = $('.tinggi').val();
-				// var sex = $('.sex:checked').val();
-				// var umur = $('.umur').val();
+			$('#formbmi').on('submit', function(event){
+				var berat = $('.berat').val();
+				var tinggi = $('.tinggi').val();
+				var sex = $('.sex:checked').val();
+				var umur = $('.umur').val();
+				var kegiatan = $('.kegiatan').val();
 
-				// console.log("aa");
-
-				// $('#amr').text(hitungamr(sex,berat,tinggi,umur));
-				// $('#bmi').text(hitungbmi(berat,tinggi));
-				alert("MAMPUS");
+				$('#amr').text("Kalori yang Anda butuhkan: " + hitungamr(hitungbmr(sex,berat,tinggi,umur), kegiatan) + "kkal");
+				$('#bmi').text("Skor BMI Anda: " + hitungbmi(berat,tinggi));
 
 				event.preventDefault();
 
@@ -24,7 +20,8 @@
 			});
 		});
 	</script>
-
+</head>
+<body>
 	<div>
 		<form id="formbmi" method="post" action="#">
 			<div>
@@ -43,6 +40,16 @@
 				Jenis Kelamin
 				<input type="radio" class="sex" name="sex" value="m">Male&nbsp;&nbsp; 
 				<input type="radio" class="sex" name="sex" value="f">Female
+			</div>
+			<div>
+				<label for="kegiatan">Kegiatan</label>
+				<select name="kegiatan" class="kegiatan">
+					<option value="0">minim</option>
+					<option value="1">ringan (kerja 1-2 hari/minggu)</option>
+					<option value="2">normal (kerja 3-5 hari/minggu)</option>
+					<option value="3">tinggi (kerja 6-7 hari/minggu)</option>
+					<option value="4">berat (atlet, dll)</option>
+				</select>
 			</div>
 			<div>
 				<input type="submit" value="Submit">

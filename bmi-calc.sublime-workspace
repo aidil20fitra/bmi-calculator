@@ -519,6 +519,22 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "bmi.js",
+			"settings":
+			{
+				"buffer_size": 530,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 1477,
+				"line_ending": "Windows"
+			}
+		}
 	],
 	"build_system": "",
 	"command_palette":
@@ -548,6 +564,8 @@
 	},
 	"file_history":
 	[
+		"/C/xampp/htdocs/bmi/index.php",
+		"/C/xampp/htdocs/bmi/class.bmi.php",
 		"/C/xampp/htdocs/emailmarketer/admin/functions/api/subscribers.php",
 		"/C/xampp/htdocs/emailmarketer/admin/functions/api/newsletters.php",
 		"/C/xampp/htdocs/emailmarketer/admin/functions/api/jobs.php",
@@ -673,9 +691,7 @@
 		"/C/xampp/htdocs/brands/wp-content/themes/brands/js/navigation.js",
 		"/C/xampp/htdocs/brands/wp-content/themes/brands/page-konsultasi.php",
 		"/C/xampp/htdocs/brands/wp-content/themes/brands/page-ceritamu.php",
-		"/C/xampp/htdocs/brands/wp-content/themes/brands/page-kesehatan.php",
-		"/C/xampp/htdocs/brands/wp-content/themes/brands/page-infografik.php",
-		"/C/xampp/htdocs/brands/wp-content/themes/brands/page-free-sample.php"
+		"/C/xampp/htdocs/brands/wp-content/themes/brands/page-kesehatan.php"
 	],
 	"find":
 	{
@@ -879,8 +895,61 @@
 	"groups":
 	[
 		{
+			"selected": 1,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "bmi.js",
+					"settings":
+					{
+						"buffer_size": 530,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								75,
+								75
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "index.html",
+					"settings":
+					{
+						"buffer_size": 1477,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								676,
+								676
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
 			]
 		}
 	],
