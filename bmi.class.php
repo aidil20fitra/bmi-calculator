@@ -59,7 +59,7 @@ function hasilBMI($bmiscore){
  *	want to store their weight and judge them.
  */
 function store($nama, $email){
-	$dbconn = new mysqli("localhost", "user", "pwd", "profesi_bmi"); /// Change this value to your database
+	$dbconn = new mysqli("localhost", "profesi_bmi", "^I,cMfNxbO-w", "profesi_bmi"); /// Change this value to your database
 
 	if ($dbconn->connect_errno){
 		exit();
@@ -76,7 +76,7 @@ function store($nama, $email){
  *	This will take the result from your data stored and store it in CSV file.
  */
 function getData(){
-	$dbconn = new mysqli("localhost", "user", "pwd", "profesi_bmi"); /// Change this value to your database
+	$dbconn = new mysqli("localhost", "profesi_bmi", "^I,cMfNxbO-w", "profesi_bmi"); /// Change this value to your database
 	$filename = 'daftar.csv';
 
 	if ($dbconn->connect_errno){
