@@ -4,6 +4,34 @@
 		"selected_items":
 		[
 			[
+				"bu",
+				"buttonreset"
+			],
+			[
+				"margin",
+				"margin-top"
+			],
+			[
+				"te",
+				"text-align"
+			],
+			[
+				"tex",
+				"text-decoration"
+			],
+			[
+				"fon",
+				"font-size"
+			],
+			[
+				"font-s",
+				"font-size"
+			],
+			[
+				"back",
+				"background"
+			],
+			[
 				"prenagen",
 				"prenagenTest"
 			],
@@ -128,28 +156,12 @@
 				"scrollbar1"
 			],
 			[
-				"tex",
-				"text-align"
-			],
-			[
 				"footer",
 				"footerContainer"
 			],
 			[
-				"back",
-				"background-size"
-			],
-			[
-				"fon",
-				"font-family"
-			],
-			[
 				"ca",
 				"carousel-inner"
-			],
-			[
-				"margin",
-				"margin-bottom"
 			],
 			[
 				"wp-content-conta",
@@ -290,10 +302,6 @@
 			[
 				"po",
 				"pointer"
-			],
-			[
-				"font-s",
-				"font-style"
 			],
 			[
 				"margin-",
@@ -440,10 +448,6 @@
 				"font-weight"
 			],
 			[
-				"te",
-				"text-decoration"
-			],
-			[
 				"hei",
 				"height"
 			],
@@ -510,28 +514,49 @@
 			[
 				"atta",
 				"attachmentID"
-			],
-			[
-				"Vote",
-				"VoteUp"
 			]
 		]
 	},
 	"buffers":
 	[
 		{
-			"file": "bmi.js",
+			"file": "bmi.class.php",
 			"settings":
 			{
-				"buffer_size": 530,
+				"buffer_size": 2087,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "index.html",
+			"file": "report.php",
 			"settings":
 			{
-				"buffer_size": 1477,
+				"buffer_size": 0,
+				"line_ending": "Windows",
+				"name": "<?php"
+			}
+		},
+		{
+			"file": "index.php",
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "result.php",
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "main.css",
+			"settings":
+			{
+				"buffer_size": 0,
 				"line_ending": "Windows"
 			}
 		}
@@ -564,6 +589,8 @@
 	},
 	"file_history":
 	[
+		"/C/xampp/htdocs/bmi/result.html",
+		"/C/xampp/htdocs/bmi/index.html",
 		"/C/xampp/htdocs/bmi/index.php",
 		"/C/xampp/htdocs/bmi/class.bmi.php",
 		"/C/xampp/htdocs/emailmarketer/admin/functions/api/subscribers.php",
@@ -689,9 +716,7 @@
 		"/C/xampp/htdocs/brands/wp-config.php",
 		"/C/xampp/htdocs/brands/wp-content/themes/brands/index.php",
 		"/C/xampp/htdocs/brands/wp-content/themes/brands/js/navigation.js",
-		"/C/xampp/htdocs/brands/wp-content/themes/brands/page-konsultasi.php",
-		"/C/xampp/htdocs/brands/wp-content/themes/brands/page-ceritamu.php",
-		"/C/xampp/htdocs/brands/wp-content/themes/brands/page-kesehatan.php"
+		"/C/xampp/htdocs/brands/wp-content/themes/brands/page-konsultasi.php"
 	],
 	"find":
 	{
@@ -713,6 +738,11 @@
 		"case_sensitive": true,
 		"find_history":
 		[
+			"hasil",
+			"umur",
+			"tinggi",
+			"berat",
+			"sex",
 			"Prenagen",
 			"registerToNextWeek",
 			"GenerateSubscriberSubQuery",
@@ -835,12 +865,7 @@
 			"availabletext",
 			"initday",
 			"AvailableText",
-			"\"blablabla\"",
-			"AvailableText",
-			"http://onepiece.wikia.com/wiki/Koala",
-			"AvailableText",
-			"send",
-			"day.hasClass('unavailable')"
+			"\"blablabla\""
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -848,6 +873,11 @@
 		"regex": false,
 		"replace_history":
 		[
+			"$hasil",
+			"$umur",
+			"$tinggi",
+			"$berat",
+			"$sex",
 			"Prenagent",
 			"$this->AdjustTime(",
 			"$this->userid",
@@ -895,28 +925,56 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 0,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "bmi.js",
+					"file": "bmi.class.php",
 					"settings":
 					{
-						"buffer_size": 530,
+						"buffer_size": 2087,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								75,
-								75
+								1965,
+								1965
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 559.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "report.php",
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"auto_name": "<?php",
+							"syntax": "Packages/PHP/PHP.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -925,24 +983,78 @@
 					"type": "text"
 				},
 				{
-					"buffer": 1,
-					"file": "index.html",
+					"buffer": 2,
+					"file": "index.php",
 					"settings":
 					{
-						"buffer_size": 1477,
+						"buffer_size": 0,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								676,
-								676
+								0,
+								0
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/HTML/HTML.tmLanguage"
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "result.php",
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "main.css",
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,

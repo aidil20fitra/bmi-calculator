@@ -1,0 +1,8 @@
+@font-face {
+    font-family: 'OptimaThinRegular';
+    src: url('optima.eot');
+    src: url('optima.eot') format('embedded-opentype'),
+         url('optima.woff') format('woff'),
+         url('optima.ttf') format('truetype'),
+         url('optima.svg#OptimaThinRegular') format('svg');
+}
